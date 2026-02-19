@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - WiseBuy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>🛒 WiseBuy</h1>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="support.html" class="active">Support</a>
+                <a href="invoices.html">Invoices</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="support-section">
+        <div class="container">
+            <h1>Get Support</h1>
+            <p class="section-subtitle">Have a question or need help? Send us a message and we'll get back to you soon.</p>
+
+            <div class="support-content">
+                <div class="contact-form-container">
+                    <form id="supportForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Your name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" required placeholder="How can we help?">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Tell us more about your issue or question..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+
+                    <div id="formSuccess" class="form-message success" style="display: none;">
+                        <h3>✓ Message Sent!</h3>
+                        <p>Thank you for contacting us. We'll get back to you shortly.</p>
+                    </div>
+
+                    <div id="formError" class="form-message error" style="display: none;">
+                        <h3>✗ Something went wrong</h3>
+                        <p>Please try again or email us directly at <a href="mailto:support@wisebuy.app">support@wisebuy.app</a></p>
+                    </div>
+                </div>
+
+                <div class="support-info">
+                    <div class="info-card">
+                        <h3>📧 Email Support</h3>
+                        <p>For direct inquiries, email us at:</p>
+                        <a href="mailto:support@wisebuy.app" class="contact-link">support@wisebuy.app</a>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>⏱️ Response Time</h3>
+                        <p>We typically respond within 24-48 hours during business days.</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>📚 FAQ</h3>
+                        <p>Common questions:</p>
+                        <ul class="faq-list">
+                            <li>How do I reset my password?</li>
+                            <li>How does the AI analysis work?</li>
+                            <li>Can I export my data?</li>
+                            <li>Is my data secure?</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>WiseBuy</h4>
+                    <p>AI-powered shopping management for smarter decisions</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="support.html">Support</a>
+                    <a href="invoices.html">Invoices</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>support@wisebuy.app</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 WiseBuy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="support.js"></script>
+</body>
+</html>
